@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Allclass</title>
+  <style>
+    .mywidth{width:1200px;}
+    *{margin:0;padding:0;}
+    a{text-decoration: none;}
+    .myheader a{color:#eee;}
+    .myheader .theader,.myheader .mynavbar {
+      width:100%;
+      height:40px;
+      background-color: #111;
+      line-height:40px;
+      font-size:14px;
+    }
+    .myheader ul li{
+      width:100px;
+    }
+    header{top:0;}
+    section{margin-top:168px;}
+    section a{
+      font-size:14px;
+      color:#eee;
+    }
+    .sorts{width:120px;}
+    .sorts ul li{
+      background-color:#111;
+      width:90px;
+      height:40px;
+      padding-left:15px;
+      line-height: 40px;
+    }
+    section h5{font-size:16px;}
+    .products{width:1080px;}
+    .products .p_f1_l{width:40%;}
+    .products .p_f1_r{width:60%;}
+    .products .p_f1_r ul li{width:33.33%;}
+    .products .p_f1_b ul li{width:20%;}
+    .more_icon{
+      transform:rotate(90deg);
+      font-size:24px;
+    }
+  </style>
+</head>
+<body>
+<header class="position-fixed w-100">
+  <div class="myheader bg-white">
+    <div class="theader">
+      <div class="mywidth mx-auto">
+        <ul class="list-unstyled d-flex text-center float-right">
+          <li ><a href="./signin.html" >登录</a></li>
+          <li ><a href="./signup.html" >注册</a></li>
+          <li ><a href="./myorder.html" >我的订单</a></li>
+          <li ><a href="./notfound.html" >关于我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="search mt-2 d-flex justify-content-between mywidth mx-auto px-5">
+      <img src="./index/logo.png" alt="">
+      <input type="text" placeholder="搜 索" class="w-25 border-secondary h-100 mt-4 px-3">
+    </div>
+    <div class="mynavbar">
+      <div class="mywidth mx-auto px-5">
+        <ul class="list-unstyled d-flex text-center">
+          <li><a href="./index.html">首页</a></li>
+          <li class="bg-danger"><a href="./allclass.html">所有分类</a></li>
+          <li><a href="./hotsell.html">热销商品</a></li>
+          <li><a href="./famousshop.html">名店精选</a></li>
+          <li><a href="./notfound.html">下载APP</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="mywidth mx-auto">
+  <div class="sorts float-left" >
+    <h5 class="my-3 ml-2">所有分类</h5>
+    <ul class="list-unstyled">
+      <li class="bg-danger"><a href="#">耳机</a></li>
+      <li><a href="#">手机</a></li>
+      <li><a href="#">笔记本</a></li>
+      <li><a href="#">相机</a></li>
+      <li><a href="#">键盘鼠标</a></li>
+      <li><a href="#">音响</a></li>
+    </ul>
+  </div>
+  <div class="products float-left">
+    <h5 class="my-3">耳机 &gt;</h5>
+    <div class="p_f1_t d-flex">
+      <div class="p_f1_l text-center">
+        <img src="./index/p_left.png" alt="">
+      </div>
+      <div class="p_f1_r">
+        <ul class="list-unstyled text-center d-flex flex-wrap">
+          <li>
+            <img src="./index/pr1.png" alt="">
+            <p class="font-weight-bold mb-1">Beats</p>
+            <h5 class="text-secondary">运动头戴式耳机果绿</h5>
+            <p class="font-weight-bold text-danger">RMB 698.00</p>
+          </li>
+          <li>
+            <img src="./index/pr2.png" alt="">
+            <p class="font-weight-bold mb-1">1More</p>
+            <h5 class="text-secondary">高保真耳机</h5>
+            <p class="font-weight-bold text-danger">RMB 445.00</p>
+          </li>
+          <li>
+            <img src="./index/pr3.png" alt="">
+            <p class="font-weight-bold mb-1">SoundH</p>
+            <h5 class="text-secondary">立体声入耳式</h5>
+            <p class="font-weight-bold text-danger">RMB 368.00</p>
+          </li>
+          <li>
+            <img src="./index/pr4.png" alt="">
+            <p class="font-weight-bold mb-1">Razer</p>
+            <h5 class="text-secondary">黑色环绕音耳机</h5>
+            <p class="font-weight-bold text-danger">RMB 446.00</p>
+          </li>
+          <li>
+            <img src="./index/pr5.png" alt="">
+            <p class="font-weight-bold mb-1">SONY</p>
+            <h5 class="text-secondary">粉色魅力款耳机</h5>
+            <p class="font-weight-bold text-danger">RMB 888.00</p>
+          </li>
+          <li>
+            <img src="./index/pr6.png" alt="">
+            <p class="font-weight-bold mb-1">AirX</p>
+            <h5 class="text-secondary">机械白色装</h5>
+            <p class="font-weight-bold text-danger">RMB 336.00</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="p_f1_b">
+      <ul class="list-unstyled text-center d-flex">
+        <li>
+          <img src="./index/pr7.png" alt="">
+          <p class="font-weight-bold mb-1">Beats</p>
+          <h5 class="text-secondary">运动耳机詹姆斯同款</h5>
+          <p class="font-weight-bold text-danger">RMB 1299.00</p>
+        </li>
+        <li>
+          <img src="./index/pr8.png" alt="">
+          <p class="font-weight-bold mb-1">Sennheiser</p>
+          <h5 class="text-secondary">经典黑色款</h5>
+          <p class="font-weight-bold text-danger">RMB 1099.00</p>
+        </li>
+        <li>
+          <img src="./index/pr9.png" alt="">
+          <p class="font-weight-bold mb-1">SNOY</p>
+          <h5 class="text-secondary">多功能款耳机黑色</h5>
+          <p class="font-weight-bold text-danger">RMB 996.00</p>
+        </li>
+        <li>
+          <img src="./index/pr10.png" alt="">
+          <p class="font-weight-bold mb-1">Monster</p>
+          <h5 class="text-secondary">蓝色特殊款耳机</h5>
+          <p class="font-weight-bold text-danger">RMB 562.00</p>
+        </li>
+        <li>
+          <img src="./index/pr11.png" alt="">
+          <p class="font-weight-bold mb-1">SNOY</p>
+          <h5 class="text-secondary">头戴式耳机果绿款</h5>
+          <p class="font-weight-bold text-danger">RMB 764.00</p>
+        </li>
+      </ul>
+    </div>
+    <div class="w-100 float-left clearfix text-center">
+      <button class="btn bg-transparent">
+        <p class="mb-0">查看更多商品</p>
+        <span class="more_icon d-block">&gt;</span>
+      </button>
+    </div>
+  </div>
+
+</section>
+<footer>
+  <iframe src="./footer.html" frameborder="0" width="100%" height="618px"></iframe>
+</footer>
+</body>
+</html>

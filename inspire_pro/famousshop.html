@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Famousshop</title>
+  <style>
+    .mywidth{width:1200px;}
+    *{margin:0;padding:0;}
+    a{text-decoration: none;}
+    .myheader a{color:#eee;}
+    .myheader .theader,.myheader .mynavbar {
+      width:100%;
+      height:40px;
+      background-color: #111;
+      line-height:40px;
+      font-size:14px;
+    }
+    .myheader ul li{
+      width:100px;
+    }
+    header{top:0;z-index: 100;}
+    section{margin-top:168px;}
+    section div p{
+      width:160px;
+      border-top:1px solid #ddd;
+      text-align: center;
+      padding-top:25px;
+      position: absolute;
+    }
+    section div:nth-child(2) img{
+      margin-left:-50px;
+    }
+    section div{
+      margin:20px;
+    }
+    .md1{top:145px;left:60px;}
+    .md2{top:155px;right:35px;}
+    .md3{top:115px;left:55px;}
+    .md4{top:130px;right:55px;}
+    .md5{top:145px;left:60px;}
+    .md6{top:145px;right:60px;}
+    .more_icon{
+      transform:rotate(90deg);
+      font-size:24px;
+    }
+    button h5{
+      font-size:14px;
+    }
+  </style>
+</head>
+<body>
+<header class="position-fixed w-100">
+  <div class="myheader bg-white">
+    <div class="theader">
+      <div class="mywidth mx-auto">
+        <ul class="list-unstyled d-flex text-center float-right">
+          <li ><a href="./signin.html" >登录</a></li>
+          <li ><a href="./signup.html" >注册</a></li>
+          <li ><a href="./myorder.html" >我的订单</a></li>
+          <li ><a href="./notfound.html" >关于我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="search mt-2 d-flex justify-content-between mywidth mx-auto px-5">
+      <img src="./index/logo.png" alt="">
+      <input type="text" placeholder="搜 索" class="w-25 border-secondary h-100 mt-4 px-3">
+    </div>
+    <div class="mynavbar">
+      <div class="mywidth mx-auto px-5">
+        <ul class="list-unstyled d-flex text-center">
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./allclass.html">所有分类</a></li>
+          <li><a href="./hotsell.html">热销商品</a></li>
+          <li class="bg-danger"><a href="./famousshop.html">名店精选</a></li>
+          <li><a href="./notfound.html">下载APP</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="mywidth mx-auto">
+  <div class="position-relative">
+    <img src="./index/md1.png" alt="">
+    <p class="md1"><a href="./hotsell.html" class="text-dark font-weight-bold">进店选购 &gt;&gt;</a></p>
+  </div>
+  <div class="position-relative">
+    <img src="./index/md2.png" alt="">
+    <p class="md2"><a href="./hotsell.html" class="text-dark font-weight-bold">进店选购 &gt;&gt;</a></p>
+  </div>
+  <div class="position-relative">
+    <img src="./index/md3.png" alt="">
+    <p class="md3"><a href="./hotsell.html" class="text-dark font-weight-bold">进店选购 &gt;&gt;</a></p>
+  </div>
+  <div class="position-relative">
+    <img src="./index/md4.png" alt="">
+    <p class="md4"><a href="./hotsell.html" class="text-dark font-weight-bold">进店选购 &gt;&gt;</a></p>
+  </div>
+  <div class="position-relative">
+    <img src="./index/md5.png" alt="">
+    <p class="md5"><a href="./hotsell.html" class="text-dark font-weight-bold">进店选购 &gt;&gt;</a></p>
+  </div>
+  <div class="position-relative">
+    <img src="./index/md6.png" alt="">
+    <p class="md6"><a href="./hotsell.html" class="text-dark font-weight-bold">进店选购 &gt;&gt;</a></p>
+  </div>
+  <div class="text-center">
+    <button class="btn bg-transparent mt-4">
+      <h5 class="mb-0 text-secondary">更多名店，点击查看</h5>
+      <span class="more_icon d-block text-secondary">&gt;</span>
+    </button>
+  </div>
+</section>
+<footer>
+  <iframe src="./footer.html" frameborder="0" width="100%" height="618px"></iframe>
+</footer>
+</body>
+</html>

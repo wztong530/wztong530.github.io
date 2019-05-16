@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Myorder</title>
+  <style>
+    .mywidth{width:1200px;}
+    *{margin:0;padding:0;}
+    a{text-decoration: none;}
+    .myheader a{color:#eee;}
+    .myheader .theader,.myheader .mynavbar {
+      width:100%;
+      height:40px;
+      background-color: #111;
+      line-height:40px;
+      font-size:14px;
+    }
+    .myheader ul li{
+      width:100px;
+    }
+    header{top:0;}
+    section{
+      margin-top:168px;
+      font-size:14px;
+    }
+    .leftlist{
+      width:200px;
+      background-color:#111;
+      color:#eee;
+    }
+    .leftlist .od_icon {
+      background: url("./index/od_icon.png") no-repeat 20px center;
+    }
+    .leftlist .ps_icon {
+      background: url("./index/ps_icon.png") no-repeat 20px center;
+    }
+    .leftlist .card_icon {
+      background: url("./index/card_icon.png") no-repeat 20px center;
+    }
+    .leftlist .serve_icon {
+      background: url("./index/serve_icon.png") no-repeat 20px center;
+    }
+    .rightlist{width:1000px;}
+    .rightlist ul li{width:100px;}
+  </style>
+  }
+</head>
+<body>
+<header class="position-fixed w-100">
+  <div class="myheader bg-white">
+    <div class="theader">
+      <div class="mywidth mx-auto">
+        <ul class="list-unstyled d-flex text-center float-right">
+          <li ><a href="./signin.html" >登录</a></li>
+          <li ><a href="./signup.html" >注册</a></li>
+          <li ><a href="./myorder.html" >我的订单</a></li>
+          <li ><a href="./notfound.html" >关于我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="search d-flex justify-content-between mywidth mx-auto px-5">
+      <img src="./index/logo.png" alt="">
+      <input type="text" placeholder="搜 索" class="w-25 border-secondary h-100 mt-4 px-3">
+    </div>
+    <div class="mynavbar">
+      <div class="mywidth mx-auto px-5">
+        <ul class="list-unstyled d-flex text-center">
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./allclass.html">所有分类</a></li>
+          <li><a href="./hotsell.html">热销商品</a></li>
+          <li><a href="./famousshop.html">名店精选</a></li>
+          <li><a href="./notfound.html">下载APP</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="mywidth mx-auto">
+  <ul class="list-unstyled d-flex ml-3">
+    <li>首页&nbsp;</li>
+    <li>&nbsp;&gt;&nbsp;用户中心</li>
+    <li>&nbsp;&gt;&nbsp;我的订单</li>
+  </ul>
+  <div class="d-flex">
+    <div class="leftlist py-4">
+      <ul class="list-unstyled d-flex flex-column text-center">
+        <li>
+          <h5 class="od_icon my-3">订单中心</h5>
+          <p>我的订单</p>
+          <p>我的回购单</p>
+          <p>我的意外保</p>
+        </li>
+        <li>
+          <h5 class="ps_icon my-3">个人中心</h5>
+          <p>地址管理</p>
+          <p>我的收藏</p>
+          <p>消息提醒</p>
+          <p>建议反馈</p>
+        </li>
+        <li>
+          <h5 class="card_icon my-3">卡券中心</h5>
+          <p>我的优惠券</p>
+          <p>我的卡包</p>
+          <p>我的积分</p>
+        </li>
+        <li>
+          <h5 class="serve_icon my-3">售后服务</h5>
+          <p>物流查询</p>
+          <p>退货/换货</p>
+          <p>意外保</p>
+        </li>
+      </ul>
+    </div>
+    <div class="rightlist">
+      <ul class="list-unstyled d-flex text-center ml-4">
+        <li class="text-danger">全部订单</li>
+        <li>待付款</li>
+        <li>待发货</li>
+        <li>已发货</li>
+        <li>其他</li>
+      </ul>
+      <div class="text-center">
+        <img src="./index/box.png" alt="">
+        <p class="mt-4">您暂无相关订单哦~</p>
+        <a class="btn btn-outline-secondary text-dark" href="./allclass.html">去逛逛&gt;&gt;</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <iframe src="./footer.html" frameborder="0" width="100%" height="618px"></iframe>
+</footer>
+</body>
+</html>

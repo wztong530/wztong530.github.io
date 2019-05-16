@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Title</title>
+  <style>
+    .cd{
+      width:1000px;
+      height:856px;
+      background:url("./index/cd1.png") no-repeat center center;
+      background-size:cover;
+    }
+    .cd img{
+      top:250px;
+      right:50px;
+    }
+    .cd a:nth-child(2){
+      color:#111;
+      padding:5px 15px;
+      top:450px;
+      right:150px;
+      text-decoration: none;
+    }
+    .cd a.btn_close{
+      display:block;
+      width:80px;
+      height:80px;
+      background:url("./index/cd3.png") no-repeat center center;
+      top:95px;
+      right:-5px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="cd mx-auto position-relative">
+  <img src="./index/cd2.png" class="position-absolute">
+  <a href="./index.html" class="position-absolute border border-dark">了解更多</a>
+  <a href="./notfound.html" class="btn_close position-absolute"></a>
+</div>
+</body>
+</html>
